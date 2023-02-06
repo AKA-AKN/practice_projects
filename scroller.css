@@ -1,0 +1,17 @@
+.wrapper{
+    max-height: fit-content;
+    border: 1px solid black;
+    display: flex;
+    overflow-x:auto;
+}
+.wrapper::-webkit-scrollbar{
+    width: 0px;
+    height: 0px;
+}
+.item{
+    width:fit-content;
+    height:fit-content;
+    line-height:normal;
+    border:3px solid red;
+    background-color: red;
+}
