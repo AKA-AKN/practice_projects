@@ -1,4 +1,37 @@
 @import url('https://fonts.cdnfonts.com/css/kumar-one');
 *{
-    font-family: 'Kumar One',sans-serif;
+    font-family: 'Kumar One';
+}
+input[type=text] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000000;}
+.contact-section{
+    margin: 1rem 1rem 1rem 1rem;
+}
+.contact-sub-section{
+ 
+}
+textarea{
+    min-width: 40rem;
+}
+input{
+    margin: 0rem 1rem 1rem 0rem;
+    /* background-color: blueviolet; */
+}
+::placeholder{
+    color: brown;
+    opacity: 1;
+}
+.contact-button{
+    width: 20rem;
+    align-self: center;
+    background-color: rgb(243, 90, 115);
+    position: relative;
+    left: 10rem;
+}
+.contact-title{
+    position:relative;
+    left: 15rem;
+
 }
