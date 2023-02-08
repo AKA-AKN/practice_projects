@@ -8,6 +8,10 @@ input[type=text] {
     border-bottom: 1px solid #000000;}
 .contact-section{
     margin: 1rem 1rem 1rem 1rem;
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    align-items: center;
 }
 .contact-sub-section{
  
