@@ -1,0 +1,42 @@
+.follow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    padding: 0;
+    margin: 0;
+}
+a i{
+    margin: 4px;
+    margin-left: 10px;
+    text-decoration: none;
+    color: black;
+}
+.fab{
+    padding: 20px;
+    width: 50px;
+    font-size: 40px ;
+    text-decoration: none;
+    /* border: 1px solid black; */
+
+}
+.fab:hover{
+    opacity: 0.8;
+    
+}
+.fa-facebook:hover{
+    color: blue;
+}
+.fa-twitter:hover{
+    color: rgb(0, 179, 255);
+}
+.fa-instagram:hover{
+    color: rgb(228, 0, 50);
+}
+.fa-linkedin:hover{
+    color: blue;
+}
+.fa-youtube:hover{
+    color: red;
+}
